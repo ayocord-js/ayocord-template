@@ -1,0 +1,16 @@
+{
+  "name": "ayocord-template",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "ayocord": "^1.5.2",
+    "discord.js": "^14.18.0"
+  }
+}
