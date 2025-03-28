@@ -1,4 +1,4 @@
-import { ConfigUtility, DiscordFactory, MultiTokenBotsUitility } from 'ayocord';
+import { ConfigUtility, DiscordFactory } from 'ayocord';
 import { GatewayIntentBits } from 'discord.js';
 
 async function bootstrap() {
@@ -27,3 +27,5 @@ async function bootstrap() {
   
   bots.map(bot => bot.login());
 }
+
+bootstrap()
